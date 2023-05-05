@@ -1,8 +1,9 @@
 .list {
-    background-color: #663399;
+    background-color: #9370db;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 450px;
     padding: 10px;
     border-radius: 10px;
   }

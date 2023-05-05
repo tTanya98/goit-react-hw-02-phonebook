@@ -32,7 +32,7 @@ export class ContactForm extends Component {
             Name
             <br />
             <input
-              className={sty.input}
+              className={sty.inputName}
               onChange={this.onChangeInput} 
               value={this.state.name} 
               type="text"
@@ -47,7 +47,7 @@ export class ContactForm extends Component {
             Number
             <br />
             <input
-              className={sty.input}
+              className={sty.inputNumber}
               onChange={this.onChangeInput} 
               value={this.state.number} 
               type="tel"
