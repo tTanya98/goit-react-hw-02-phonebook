@@ -1,13 +1,14 @@
-.formstyle {
+.form {
     background-color: #9370db;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 450px;
     padding: 10px;
     border-radius: 10px;  
   }
-  
+ .buttonEditor {
+margin-left: 75px;
+  }
   label {
     margin-bottom: 10px;
     color: #fff;
@@ -17,3 +18,9 @@
     margin-bottom: 0px;
   }
 
+.inputName {
+  margin-left: 28px;
+}
+.inputNumber {
+  margin-left: 10px;
+}
