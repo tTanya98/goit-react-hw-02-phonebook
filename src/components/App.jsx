@@ -30,7 +30,7 @@ class App extends Component {
       return;
     }
     const contact = {
-      id: nanoid.generate(),
+      id: nanoid(),
       name: name,
       number: number,
     };
